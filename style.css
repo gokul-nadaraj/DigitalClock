@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "poppins" ,sans-serif;
+}
+body{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:100vh;
+    justify-content: center;
+    background-image: url(/project006/images/bg1.png);
+    background-size: cover;   
+    overflow: hidden; 
+}
+h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background:#747572c5;
+    opacity: 0.8;
+    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 5px;
+    outline: none;
+    border: none;
+}
+.clock{
+    display: flex;
+   
+}
+.clock div{
+  margin: 5px;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.clock span{
+    width: 200px;
+    height: 150px;
+    background-color: #030910df;
+    opacity: .8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+
+}
+.clock .text{
+    height: 30px;
+    font-size: 10px;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    background:#9c9f98;
+    opacity: 0.8;
+    font-weight: 800;
+}
+.clock #ampm{
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
