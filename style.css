@@ -9,7 +9,7 @@ body{
     align-items: center;
     height:100vh;
     justify-content: center;
-    background-image: url(/project006/images/bg1.png);
+    background-image: url(images/bg1.png);
     background-size: cover;   
     overflow: hidden; 
 }
